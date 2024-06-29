@@ -69,7 +69,7 @@ $username = $_SESSION['username'];
           <div class="carousel-inner">
             <div class="carousel-item active" style="height: 340px">
               <img
-                src="img/1.jpg"
+                src="img/1.webp"
                 class="d-block w-100"
                 style="height: 100%"
                 alt="..."
@@ -77,7 +77,7 @@ $username = $_SESSION['username'];
             </div>
             <div class="carousel-item" style="height: 340px">
               <img
-                src="img/4.jpg"
+                src="img/3.webp"
                 class="d-block w-100"
                 style="height: 100%"
                 alt="..."
@@ -85,7 +85,7 @@ $username = $_SESSION['username'];
             </div>
             <div class="carousel-item" style="height: 340px">
               <img
-                src="img/3.jpg"
+                src="img/4.webp"
                 class="d-block w-100"
                 style="height: 100%"
                 alt="..."
@@ -93,7 +93,7 @@ $username = $_SESSION['username'];
             </div>
             <div class="carousel-item" style="height: 340px">
               <img
-                src="img/5.jpg"
+                src="img/5.webp"
                 class="d-block w-100"
                 style="height: 100%"
                 alt="..."
@@ -101,7 +101,7 @@ $username = $_SESSION['username'];
             </div>
             <div class="carousel-item" style="height: 340px">
               <img
-                src="img/6.jpg"
+                src="img/6.webp"
                 class="d-block w-100"
                 style="height: 100%"
                 alt="..."
@@ -161,7 +161,7 @@ $username = $_SESSION['username'];
         <div class="col-lg-12">
           <h1 class="text-center fw-bold mt-3 mb-4" style="font-size: 4.6rem;">About Us</h1>
         </div>
-        <div class="col-lg-7 mb-3"><img class="rounded" width="100%" src="img/about.jpg" alt="" /></div>
+        <div class="col-lg-7 mb-3"><img class="rounded" width="100%" src="img/about.webp" alt="About Us" /></div>
         <div class="col-lg-5 my-4 ">
           <p class="px-3" style="text-align: justify; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 400; font-size: 1.2rem; color: black;">
             Welcome to Farm Expenses System, your go-to platform for efficient
