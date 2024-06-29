@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Farm Expenses System Flowchart</title>
+    <style>
+        .flowchart {
+            font-family: Arial, sans-serif;
+        }
+        .flowchart .box {
+            border: 1px solid #000;
+            padding: 10px;
+            margin: 20px;
+            display: inline-block;
+            text-align: center;
+        }
+        .flowchart .arrow {
+            display: inline-block;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="flowchart">
+        <!-- Registration Process -->
+        <div class="box">Access Registration Page</div>
+        <div class="arrow">➡</div>
+        <div class="box">Fill Registration Form</div>
+        <div class="arrow">➡</div>
+        <div class="box">Submit Form</div>
+        <div class="arrow">➡</div>
+        <div class="box">Validate Input</div>
+        <div class="arrow">➡</div>
+        <div class="box">
+            <p>If Validation Fails:</p>
+            <p>Error Message</p>
+            <p>Else:</p>
+            <p>Store Data in Database</p>
+            <p>Success Message</p>
+        </div>
+        <br><br>
+        <!-- Login Process -->
+        <div class="box">Access Login Page</div>
+        <div class="arrow">➡</div>
+        <div class="box">Enter Login Credentials</div>
+        <div class="arrow">➡</div>
+        <div class="box">Submit Form</div>
+        <div class="arrow">➡</div>
+        <div class="box">Verify Credentials</div>
+        <div class="arrow">➡</div>
+        <div class="box">
+            <p>If Incorrect:</p>
+            <p>Error Message</p>
+            <p>Else:</p>
+            <p>Create User Session</p>
+            <p>Redirect to Home Page</p>
+        </div>
+        <br><br>
+        <!-- Services Process -->
+        <div class="box">Access Services Section</div>
+        <div class="arrow">➡</div>
+        <div class="box">
+            <p>Choose to Submit Expenses or Sales</p>
+            <p>(For Expenses or Sales)</p>
+            <p>Select Crop, Enter Details</p>
+        </div>
+        <div class="arrow">➡</div>
+        <div class="box">Submit Form</div>
+        <div class="arrow">➡</div>
+        <div class="box">Validate Input</div>
+        <div class="arrow">➡</div>
+        <div class="box">Store Data in Database</div>
+        <br><br>
+        <!-- Profit and Loss Process -->
+        <div class="box">Access Profit and Loss Section</div>
+        <div class="arrow">➡</div>
+        <div class="box">Select Crop</div>
+        <div class="arrow">➡</div>
+        <div class="box">Retrieve Data</div>
+        <div class="arrow">➡</div>
+        <div class="box">Calculate Profit/Loss</div>
+        <div class="arrow">➡</div>
+        <div class="box">Display Financial Report</div>
+    </div>
+</body>
+</html>
