@@ -1,6 +1,6 @@
 
 <div class="row justify-content-evenly mb-5" id="contact">
-    <div class="col-lg-10 shadow-lg rounded my-3 px-5 py-4">
+    <div class="col-lg-10 shadow-lg rounded my-3 col-11 px-5 py-4">
         <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
             <div class="col-lg-12">
                 <h1 class="text-center fw-bold mt-3 mb-4 fs-1" >Contact Us</h1>

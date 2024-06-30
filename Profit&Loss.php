@@ -103,7 +103,8 @@ $conn->close();
       </form>
       <?php
       if (isset($expenses) && is_array($expenses) && !empty($expenses) || isset($sales) && is_array($sales) && !empty($sales)) {
-        echo "<table class='table table-bordered'>
+        echo "<div class='table-responsive'>
+        <table class='table table-bordered'>
         <thead >
           <tr >
             <th scope='col'  colspan='3' class='fs-4'>Expenses</th>
@@ -151,12 +152,14 @@ $conn->close();
         echo "<th colspan='3'>Profit/Loss</th>";
         echo "<th colspan='3'>" . ($ProfitLoss > 0 ? "Profit: ₹ " . $ProfitLoss : "Loss: ₹ " . abs($ProfitLoss)) . "</th>";
         echo "</tr>";
+        echo " </tbody>
+      </table>
+      </div>";
       } else {
         echo "<h4>No expenses and sales found</h4>";
       }
       ?>
-      </tbody>
-      </table>
+
     </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
