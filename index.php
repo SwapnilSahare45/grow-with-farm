@@ -80,9 +80,9 @@ $username = $_SESSION['username'];
         managing your farm's finances effortlessly today with our farmer's
         portal.
       </p>
-      <button type="button" class="col-lg-2 col-md-4 col-6 btn btn-primary mb-3">
+      <a href="Services.php" class="col-lg-2 col-md-4 col-6 btn btn-primary mb-3">
         Explore Services
-      </button>
+        </a>
     </div>
 
     <?php
