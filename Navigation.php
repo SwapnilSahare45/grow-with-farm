@@ -28,6 +28,9 @@
                         <a class="nav-link " href="Profit&Loss.php">Profit & Loss</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link " href="Search.php">Search</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link " href="index.php#about">About Us</a>
                     </li>
                     <li class="nav-item">
@@ -43,7 +46,7 @@
     </nav>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gybBogGzOWjtCIRh7OsLQgYf1FIKcjD8frHUepA7JRB4pKNW8j" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-correct-hash-here" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-correct-hash-here" crossorigin="anonymous"></script>
 
 
 </body>

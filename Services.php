@@ -13,7 +13,7 @@ $username = $_SESSION['username'];
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
   $SelectFor = $_POST['SelectFor'];
   $SelectCrops = $_POST['SelectCrops'];
-  $SelectExpenses = $_POST['SelectExpenses'];
+  $SelectExpenses = isset($_POST['SelectExpenses']) ? $_POST['SelectExpenses'] : null;
   $SelectDate = $_POST['SelectDate'];
   $SelectAmount = $_POST['SelectAmount'];
   $SelectMode = $_POST['SelectMode'];
@@ -98,7 +98,7 @@ $conn->close();
 
         <div class="input-group mb-4">
           <label class="input-group-text" for="SelectExpenses">Expenses For</label>
-          <select class="form-select" id="SelectExpenses" name="SelectExpenses" required>
+          <select class="form-select" id="SelectExpenses" name="SelectExpenses">
             <option value="" disabled selected>Select Expenses</option>
             <option value="seeds">Seeds</option>
             <option value="fertilizers">Fertilizers</option>
@@ -120,7 +120,7 @@ $conn->close();
 
         <div class="input-group mb-4">
           <span class="input-group-text">Date</span>
-          <input type="date" class="form-control" name="SelectDate" value="<?php echo date('Y-m-d'); ?>" min="<?php echo date('Y-m-d', strtotime('-3 months')); ?>" max="<?php echo date('Y-m-d'); ?>" required />
+          <input type="date" class="form-control" name="SelectDate" value="<?php echo date('Y-m-d'); ?>" min="<?php echo date('Y-m-d', strtotime('-2 months')); ?>" max="<?php echo date('Y-m-d'); ?>" required />
           <span class="input-group-text">Amount</span>
           <input type="number" class="form-control" placeholder="Amount" name="SelectAmount" required />
         </div>
