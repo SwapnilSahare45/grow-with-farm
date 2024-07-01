@@ -120,7 +120,7 @@ $conn->close();
 
         <div class="input-group mb-4">
           <span class="input-group-text">Date</span>
-          <input type="date" class="form-control" name="SelectDate" required />
+          <input type="date" class="form-control" name="SelectDate" value="<?php echo date('Y-m-d'); ?>" min="<?php echo date('Y-m-d', strtotime('-3 months')); ?>" max="<?php echo date('Y-m-d'); ?>" required />
           <span class="input-group-text">Amount</span>
           <input type="number" class="form-control" placeholder="Amount" name="SelectAmount" required />
         </div>
