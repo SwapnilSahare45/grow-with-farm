@@ -62,7 +62,7 @@ $conn->close();
       <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
         <div class="input-group mb-4">
           <label class="input-group-text" for="SelectFor">Select For</label>
-          <select class="form-select" id="SelectFor" name="SelectFor" required>
+          <select class="form-select" id="SelectFor" name="SelectFor" required onchange="toggleExpensesField()">
             <option value="" selected disabled>Choose...</option>
             <option value="expenses">Expenses</option>
             <option value="sales">Sales</option>
@@ -150,6 +150,7 @@ $conn->close();
     </div>
   </div>
 
+  <script src="script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 
